@@ -1,18 +1,30 @@
+import ExampleArrayOfObjectsInReact from './ExampleArrayOfObjectsInReact';
+import ExampleChildrenProps from './ExampleChildrenProps';
 import ExampleClassToFunctionClass from './ExampleClassToFunction';
 import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleControlledComponentCheckbox from './ExampleControlledComponentCheckbox';
+import ExampleDataFetching from './ExampleDataFetching';
 import ExampleFormsWIthControlledComponents from './ExampleFormsWIthControlledComponents';
 import ExampleLiftingStateUp from './ExampleLiftingStateUp';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExampleProps from './ExampleProps';
+import ExampleReactAntipattern from './ExampleReactAntipattern';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
 import ExampleStylingOptions from './ExampleStylingOptions';
+import ExampleUseEffect from './ExampleUseEffect';
 
 export default function App() {
   return (
     <>
+      <h1>Example: Data Fetching</h1>
+      <ExampleDataFetching />
+      <br />
+      <br />
+      <br />
+      <br />
       <h1>Example: Import and Export Components</h1>
       <ExampleComponents />
       <br />
@@ -93,6 +105,40 @@ export default function App() {
         }}
       />
       <ExampleClassToFunctionClass />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Example: Children Props</h1>
+      <ExampleChildrenProps />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Example: React Antipattern</h1>
+      <ExampleReactAntipattern />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Example: Controlled Component Checkbox</h1>
+      <ExampleControlledComponentCheckbox />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Example: Array of Objects</h1>
+      <ExampleArrayOfObjectsInReact />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Example: UseEffect</h1>
+      <ExampleUseEffect />
+      <br />
+      <br />
+      <br />
+      <br />
     </>
   );
 }
